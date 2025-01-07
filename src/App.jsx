@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       const VITE_API_KEY = import.meta.env.VITE_API_KEY;
-      console.log("VITE_API_KEY:", VITE_API_KEY);
+      // console.log("VITE_API_KEY:", VITE_API_KEY);
       const response = await axios.get(`https://financialmodelingprep.com/api/v3/income-statement/AAPL?period=annual&apikey=${VITE_API_KEY}`);
       console.log("Data:", response.data);
       setData(response.data);
