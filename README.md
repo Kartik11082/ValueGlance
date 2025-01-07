@@ -2,6 +2,9 @@
 
 This is a Vite-based React web application that fetches and displays financial data for Apple Inc. (AAPL) using the Financial Modeling Prep API. Users can filter and sort the data based on various criteria such as date, revenue, and net income.
 
+Hosted URL: [Click](https://value-glance-git-main-kartik11082s-projects.vercel.app/)
+or goto https://value-glance-git-main-kartik11082s-projects.vercel.app/
+
 ## Features
 
 - Fetches annual income statements for Apple Inc.
